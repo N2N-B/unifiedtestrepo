@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Unified Portal Test Cases]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Academic Information(failed)">
+    <classes>
+      <class name="Tests.Sslc">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="validateNegativeTenthGradeInfo"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Tests.Sslc -->
+    </classes>
+  </test> <!-- Academic Information(failed) -->
+</suite> <!-- Failed suite [Unified Portal Test Cases] -->

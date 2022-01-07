@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Unified Portal Test Cases">
+	<test name="Test">
+		<classes>
+			<class name="Tests.Login" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Personal Information">
+		<classes>
+			<class name="Tests.PersonalInformation" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Academic Information">
+		<classes>
+			<class name="Tests.Sslc" />
+			<class name="Tests.PlusTwo" />
+			<class name="Tests.Diploma" />
+			<class name="Tests.UnderGraduate" />
+			<class name="Tests.PostGraduate" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

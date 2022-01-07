@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="22" total="40" passed="17" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Invalid Password [Popup Detected]]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Onboarding gets clicked]]>
+    </line>
+    <line>
+      <![CDATA[Personal Information gets clicked]]>
+    </line>
+    <line>
+      <![CDATA[Please fill the required field [Popup Detected]]]>
+    </line>
+    <line>
+      <![CDATA[Entered into academic information]]>
+    </line>
+    <line>
+      <![CDATA[Entered into 10th grade]]>
+    </line>
+    <line>
+      <![CDATA[School Name Entered]]>
+    </line>
+    <line>
+      <![CDATA[Examination Board Combo gets clicked]]>
+    </line>
+    <line>
+      <![CDATA[Examination Board Combo value clicked]]>
+    </line>
+    <line>
+      <![CDATA[Start Date entered]]>
+    </line>
+    <line>
+      <![CDATA[End Date entered]]>
+    </line>
+    <line>
+      <![CDATA[Upload file is clicked]]>
+    </line>
+    <line>
+      <![CDATA[File is uploaded]]>
+    </line>
+    <line>
+      <![CDATA[Save button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Failed to wait for en element 
+Expected condition failed: waiting for presence of element located by: By.xpath: Please fill the required field (tried for 10 second(s) with 2000 milliseconds interval)]]>
+    </line>
+    <line>
+      <![CDATA[Entered into academic information]]>
+    </line>
+    <line>
+      <![CDATA[Entered into 12th grade]]>
+    </line>
+    <line>
+      <![CDATA[School Name Entered]]>
+    </line>
+    <line>
+      <![CDATA[Examination Board Combo gets clicked]]>
+    </line>
+    <line>
+      <![CDATA[Examination Board Combo value clicked]]>
+    </line>
+    <line>
+      <![CDATA[Start Date entered]]>
+    </line>
+    <line>
+      <![CDATA[End Date entered]]>
+    </line>
+    <line>
+      <![CDATA[Upload file is clicked]]>
+    </line>
+    <line>
+      <![CDATA[File is uploaded]]>
+    </line>
+    <line>
+      <![CDATA[Save button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Failed to wait for en element 
+Expected condition failed: waiting for presence of element located by: By.xpath: Please fill the required field (tried for 10 second(s) with 2000 milliseconds interval)]]>
+    </line>
+    <line>
+      <![CDATA[Document is in ready state]]>
+    </line>
+    <line>
+      <![CDATA[This page is not defined with JQuery]]>
+    </line>
+    <line>
+      <![CDATA[Back to onboarding]]>
+    </line>
+    <line>
+      <![CDATA[Entered into academic information]]>
+    </line>
+    <line>
+      <![CDATA[Entered into Diploma]]>
+    </line>
+    <line>
+      <![CDATA[College Combo gets clicked]]>
+    </line>
+    <line>
+      <![CDATA[College Combo value clicked]]>
+    </line>
+    <line>
+      <![CDATA[University Combo gets clicked]]>
+    </line>
+    <line>
+      <![CDATA[University Combo value clicked]]>
+    </line>
+    <line>
+      <![CDATA[Field Of Study Combo gets clicked]]>
+    </line>
+    <line>
+      <![CDATA[Field Of Study Combo value clicked]]>
+    </line>
+    <line>
+      <![CDATA[Start Date entered]]>
+    </line>
+    <line>
+      <![CDATA[End Date entered]]>
+    </line>
+    <line>
+      <![CDATA[Grade Scale Combo gets clicked]]>
+    </line>
+    <line>
+      <![CDATA[Grade Scale Combo value clicked]]>
+    </line>
+    <line>
+      <![CDATA[CGPA entered]]>
+    </line>
+    <line>
+      <![CDATA[Save button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Failed to wait for en element 
+Expected condition failed: waiting for presence of element located by: By.xpath: Please fill the required field (tried for 10 second(s) with 2000 milliseconds interval)]]>
+    </line>
+    <line>
+      <![CDATA[Document is in ready state]]>
+    </line>
+    <line>
+      <![CDATA[This page is not defined with JQuery]]>
+    </line>
+    <line>
+      <![CDATA[Back to onboarding]]>
+    </line>
+    <line>
+      <![CDATA[Entered into academic information]]>
+    </line>
+    <line>
+      <![CDATA[Entered into undergraduate]]>
+    </line>
+    <line>
+      <![CDATA[College Combo gets clicked]]>
+    </line>
+    <line>
+      <![CDATA[College Combo value clicked]]>
+    </line>
+    <line>
+      <![CDATA[University Combo gets clicked]]>
+    </line>
+    <line>
+      <![CDATA[University Combo value clicked]]>
+    </line>
+    <line>
+      <![CDATA[Field Of Study Combo gets clicked]]>
+    </line>
+    <line>
+      <![CDATA[Field Of Study Combo value clicked]]>
+    </line>
+    <line>
+      <![CDATA[Start Date entered]]>
+    </line>
+    <line>
+      <![CDATA[End Date entered]]>
+    </line>
+    <line>
+      <![CDATA[Grade Scale Combo gets clicked]]>
+    </line>
+    <line>
+      <![CDATA[Grade Scale Combo value clicked]]>
+    </line>
+    <line>
+      <![CDATA[CGPA entered]]>
+    </line>
+    <line>
+      <![CDATA[Save button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Failed to wait for en element 
+Expected condition failed: waiting for presence of element located by: By.xpath: Please fill the required field (tried for 10 second(s) with 2000 milliseconds interval)]]>
+    </line>
+    <line>
+      <![CDATA[Document is in ready state]]>
+    </line>
+    <line>
+      <![CDATA[This page is not defined with JQuery]]>
+    </line>
+    <line>
+      <![CDATA[Back to onboarding]]>
+    </line>
+    <line>
+      <![CDATA[Document is in ready state]]>
+    </line>
+    <line>
+      <![CDATA[This page is not defined with JQuery]]>
+    </line>
+    <line>
+      <![CDATA[Entered into academic information]]>
+    </line>
+    <line>
+      <![CDATA[Entered into postgraduate]]>
+    </line>
+    <line>
+      <![CDATA[College Combo gets clicked]]>
+    </line>
+    <line>
+      <![CDATA[College Combo value clicked]]>
+    </line>
+    <line>
+      <![CDATA[University Combo gets clicked]]>
+    </line>
+    <line>
+      <![CDATA[University Combo value clicked]]>
+    </line>
+    <line>
+      <![CDATA[Field Of Study Combo gets clicked]]>
+    </line>
+    <line>
+      <![CDATA[Field Of Study Combo value clicked]]>
+    </line>
+    <line>
+      <![CDATA[Start Date entered]]>
+    </line>
+    <line>
+      <![CDATA[End Date entered]]>
+    </line>
+    <line>
+      <![CDATA[Grade Scale Combo gets clicked]]>
+    </line>
+    <line>
+      <![CDATA[Grade Scale Combo value clicked]]>
+    </line>
+    <line>
+      <![CDATA[CGPA entered]]>
+    </line>
+    <line>
+      <![CDATA[Save button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Failed to wait for en element 
+Expected condition failed: waiting for presence of element located by: By.xpath: Please fill the required field (tried for 10 second(s) with 2000 milliseconds interval)]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-01-07T08:32:53 IST" name="Unified Portal Test Cases" finished-at="2022-01-07T08:35:43 IST" duration-ms="170125">
+    <groups>
+      <group name="NegativeTests">
+        <method signature="Diploma.validateNegativeDiplomaInfo()[pri:2, instance:Tests.Diploma@4145bad8]" name="validateNegativeDiplomaInfo" class="Tests.Diploma"/>
+        <method signature="PlusTwo.validateNegativePlus2GradeInfo()[pri:2, instance:Tests.PlusTwo@63376bed]" name="validateNegativePlus2GradeInfo" class="Tests.PlusTwo"/>
+        <method signature="PostGraduate.validateNegativePostGradInfo()[pri:2, instance:Tests.PostGraduate@2892d68]" name="validateNegativePostGradInfo" class="Tests.PostGraduate"/>
+        <method signature="Sslc.validateNegativeTenthGradeInfo()[pri:2, instance:Tests.Sslc@3c77d488]" name="validateNegativeTenthGradeInfo" class="Tests.Sslc"/>
+        <method signature="UnderGraduate.validateNegativeUnderGradInfo()[pri:2, instance:Tests.UnderGraduate@d86a6f]" name="validateNegativeUnderGradInfo" class="Tests.UnderGraduate"/>
+      </group> <!-- NegativeTests -->
+    </groups>
+    <test started-at="2022-01-07T08:32:53 IST" name="Test" finished-at="2022-01-07T08:33:48 IST" duration-ms="55304">
+      <class name="Tests.Login">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Tests.Login@290222c1]" started-at="2022-01-07T08:32:53 IST" name="beforeTest" finished-at="2022-01-07T08:32:53 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:Tests.Login@290222c1]" started-at="2022-01-07T08:32:53 IST" name="initDriver" finished-at="2022-01-07T08:33:06 IST" depends-on-methods="Helper.OpentapsWrappers.beforeTest" duration-ms="12794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tests.Login@290222c1]" started-at="2022-01-07T08:33:17 IST" name="beforeMethod" finished-at="2022-01-07T08:33:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="doLogIn(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.Login@290222c1]" started-at="2022-01-07T08:33:17 IST" name="doLogIn" data-provider="LoginData" finished-at="2022-01-07T08:33:28 IST" duration-ms="11196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[stagetester1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[678968767]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid Password [Popup Detected]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- doLogIn -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tests.Login@290222c1]" started-at="2022-01-07T08:33:28 IST" name="beforeMethod" finished-at="2022-01-07T08:33:28 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="doLogIn(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.Login@290222c1]" started-at="2022-01-07T08:33:28 IST" name="doLogIn" data-provider="LoginData" finished-at="2022-01-07T08:33:47 IST" duration-ms="19472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testingtester123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5641234567]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid username and password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- doLogIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.Login@290222c1]" started-at="2022-01-07T08:33:47 IST" name="tearDown" finished-at="2022-01-07T08:33:48 IST" duration-ms="820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Tests.Login@290222c1]" started-at="2022-01-07T08:33:48 IST" name="afterTest" finished-at="2022-01-07T08:33:48 IST" depends-on-methods="Tests.Login.tearDown" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Tests.Login -->
+    </test> <!-- Test -->
+    <test started-at="2022-01-07T08:33:49 IST" name="Personal Information" finished-at="2022-01-07T08:34:10 IST" duration-ms="21524">
+      <class name="Tests.PersonalInformation">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Tests.PersonalInformation@537f60bf]" started-at="2022-01-07T08:33:49 IST" name="beforeTest" finished-at="2022-01-07T08:33:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:Tests.PersonalInformation@537f60bf]" started-at="2022-01-07T08:33:49 IST" name="initDriver" finished-at="2022-01-07T08:33:51 IST" depends-on-methods="Helper.OpentapsWrappers.beforeTest" duration-ms="2161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tests.PersonalInformation@537f60bf]" started-at="2022-01-07T08:33:51 IST" name="beforeMethod" finished-at="2022-01-07T08:33:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="doLogIn(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.PersonalInformation@537f60bf]" started-at="2022-01-07T08:33:51 IST" name="doLogIn" data-provider="LoginData" finished-at="2022-01-07T08:34:00 IST" duration-ms="9121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[stagetester1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[678968767]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogIn -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tests.PersonalInformation@537f60bf]" started-at="2022-01-07T08:34:00 IST" name="beforeMethod" finished-at="2022-01-07T08:34:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="doLogIn(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.PersonalInformation@537f60bf]" started-at="2022-01-07T08:34:00 IST" name="doLogIn" data-provider="LoginData" finished-at="2022-01-07T08:34:03 IST" duration-ms="2091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testingtester123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5641234567]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid username and password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogIn -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tests.PersonalInformation@537f60bf]" started-at="2022-01-07T08:34:03 IST" name="beforeMethod" finished-at="2022-01-07T08:34:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getBasicPage()[pri:2, instance:Tests.PersonalInformation@537f60bf]" started-at="2022-01-07T08:34:03 IST" name="getBasicPage" finished-at="2022-01-07T08:34:06 IST" duration-ms="3690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBasicPage -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tests.PersonalInformation@537f60bf]" started-at="2022-01-07T08:34:06 IST" name="beforeMethod" finished-at="2022-01-07T08:34:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getAdmissionsServicesMastersProductsPage()[pri:3, instance:Tests.PersonalInformation@537f60bf]" started-at="2022-01-07T08:34:06 IST" name="getAdmissionsServicesMastersProductsPage" finished-at="2022-01-07T08:34:09 IST" duration-ms="2252" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Onboarding gets clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getAdmissionsServicesMastersProductsPage -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tests.PersonalInformation@537f60bf]" started-at="2022-01-07T08:34:09 IST" name="beforeMethod" finished-at="2022-01-07T08:34:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="clickonBoardAcademicInfoPage()[pri:4, instance:Tests.PersonalInformation@537f60bf]" started-at="2022-01-07T08:34:09 IST" name="clickonBoardAcademicInfoPage" finished-at="2022-01-07T08:34:09 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Personal Information gets clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickonBoardAcademicInfoPage -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tests.PersonalInformation@537f60bf]" started-at="2022-01-07T08:34:09 IST" name="beforeMethod" finished-at="2022-01-07T08:34:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validateNegativeOnboardingPersonalInfo()[pri:5, instance:Tests.PersonalInformation@537f60bf]" started-at="2022-01-07T08:34:09 IST" name="validateNegativeOnboardingPersonalInfo" finished-at="2022-01-07T08:34:10 IST" duration-ms="1469" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Please fill the required field [Popup Detected]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateNegativeOnboardingPersonalInfo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.PersonalInformation@537f60bf]" started-at="2022-01-07T08:34:10 IST" name="tearDown" finished-at="2022-01-07T08:34:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Tests.PersonalInformation@537f60bf]" started-at="2022-01-07T08:34:10 IST" name="afterTest" finished-at="2022-01-07T08:34:10 IST" depends-on-methods="Tests.PersonalInformation.tearDown" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Tests.PersonalInformation -->
+    </test> <!-- Personal Information -->
+    <test started-at="2022-01-07T08:34:10 IST" name="Academic Information" finished-at="2022-01-07T08:35:43 IST" duration-ms="92636">
+      <class name="Tests.PlusTwo">
+        <test-method signature="clickAddDetailsAndPlus2GradeButton()[pri:1, instance:Tests.PlusTwo@63376bed]" started-at="2022-01-07T08:34:36 IST" name="clickAddDetailsAndPlus2GradeButton" finished-at="2022-01-07T08:34:37 IST" duration-ms="461" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entered into academic information]]>
+            </line>
+            <line>
+              <![CDATA[Entered into 12th grade]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickAddDetailsAndPlus2GradeButton -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tests.PlusTwo@63376bed]" started-at="2022-01-07T08:34:36 IST" name="beforeMethod" finished-at="2022-01-07T08:34:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tests.PlusTwo@63376bed]" started-at="2022-01-07T08:34:37 IST" name="beforeMethod" finished-at="2022-01-07T08:34:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validateNegativePlus2GradeInfo()[pri:2, instance:Tests.PlusTwo@63376bed]" started-at="2022-01-07T08:34:37 IST" name="validateNegativePlus2GradeInfo" finished-at="2022-01-07T08:35:01 IST" duration-ms="24084" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[School Name Entered]]>
+            </line>
+            <line>
+              <![CDATA[Examination Board Combo gets clicked]]>
+            </line>
+            <line>
+              <![CDATA[Examination Board Combo value clicked]]>
+            </line>
+            <line>
+              <![CDATA[Start Date entered]]>
+            </line>
+            <line>
+              <![CDATA[End Date entered]]>
+            </line>
+            <line>
+              <![CDATA[Upload file is clicked]]>
+            </line>
+            <line>
+              <![CDATA[File is uploaded]]>
+            </line>
+            <line>
+              <![CDATA[Save button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Failed to wait for en element 
+Expected condition failed: waiting for presence of element located by: By.xpath: Please fill the required field (tried for 10 second(s) with 2000 milliseconds interval)]]>
+            </line>
+            <line>
+              <![CDATA[Document is in ready state]]>
+            </line>
+            <line>
+              <![CDATA[This page is not defined with JQuery]]>
+            </line>
+            <line>
+              <![CDATA[Back to onboarding]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateNegativePlus2GradeInfo -->
+      </class> <!-- Tests.PlusTwo -->
+      <class name="Tests.Diploma">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tests.Diploma@4145bad8]" started-at="2022-01-07T08:35:01 IST" name="beforeMethod" finished-at="2022-01-07T08:35:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="clickAddDetailsAndDiplomaButton()[pri:1, instance:Tests.Diploma@4145bad8]" started-at="2022-01-07T08:35:01 IST" name="clickAddDetailsAndDiplomaButton" finished-at="2022-01-07T08:35:01 IST" duration-ms="508" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entered into academic information]]>
+            </line>
+            <line>
+              <![CDATA[Entered into Diploma]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickAddDetailsAndDiplomaButton -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tests.Diploma@4145bad8]" started-at="2022-01-07T08:35:01 IST" name="beforeMethod" finished-at="2022-01-07T08:35:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validateNegativeDiplomaInfo()[pri:2, instance:Tests.Diploma@4145bad8]" started-at="2022-01-07T08:35:01 IST" name="validateNegativeDiplomaInfo" finished-at="2022-01-07T08:35:14 IST" duration-ms="12508" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[College Combo gets clicked]]>
+            </line>
+            <line>
+              <![CDATA[College Combo value clicked]]>
+            </line>
+            <line>
+              <![CDATA[University Combo gets clicked]]>
+            </line>
+            <line>
+              <![CDATA[University Combo value clicked]]>
+            </line>
+            <line>
+              <![CDATA[Field Of Study Combo gets clicked]]>
+            </line>
+            <line>
+              <![CDATA[Field Of Study Combo value clicked]]>
+            </line>
+            <line>
+              <![CDATA[Start Date entered]]>
+            </line>
+            <line>
+              <![CDATA[End Date entered]]>
+            </line>
+            <line>
+              <![CDATA[Grade Scale Combo gets clicked]]>
+            </line>
+            <line>
+              <![CDATA[Grade Scale Combo value clicked]]>
+            </line>
+            <line>
+              <![CDATA[CGPA entered]]>
+            </line>
+            <line>
+              <![CDATA[Save button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Failed to wait for en element 
+Expected condition failed: waiting for presence of element located by: By.xpath: Please fill the required field (tried for 10 second(s) with 2000 milliseconds interval)]]>
+            </line>
+            <line>
+              <![CDATA[Document is in ready state]]>
+            </line>
+            <line>
+              <![CDATA[This page is not defined with JQuery]]>
+            </line>
+            <line>
+              <![CDATA[Back to onboarding]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateNegativeDiplomaInfo -->
+      </class> <!-- Tests.Diploma -->
+      <class name="Tests.UnderGraduate">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tests.UnderGraduate@d86a6f]" started-at="2022-01-07T08:35:14 IST" name="beforeMethod" finished-at="2022-01-07T08:35:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="clickAddDetailsAndUnderGradGradeButton()[pri:1, instance:Tests.UnderGraduate@d86a6f]" started-at="2022-01-07T08:35:14 IST" name="clickAddDetailsAndUnderGradGradeButton" finished-at="2022-01-07T08:35:17 IST" duration-ms="2927" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entered into academic information]]>
+            </line>
+            <line>
+              <![CDATA[Entered into undergraduate]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickAddDetailsAndUnderGradGradeButton -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tests.UnderGraduate@d86a6f]" started-at="2022-01-07T08:35:17 IST" name="beforeMethod" finished-at="2022-01-07T08:35:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validateNegativeUnderGradInfo()[pri:2, instance:Tests.UnderGraduate@d86a6f]" started-at="2022-01-07T08:35:17 IST" name="validateNegativeUnderGradInfo" finished-at="2022-01-07T08:35:29 IST" duration-ms="12738" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[College Combo gets clicked]]>
+            </line>
+            <line>
+              <![CDATA[College Combo value clicked]]>
+            </line>
+            <line>
+              <![CDATA[University Combo gets clicked]]>
+            </line>
+            <line>
+              <![CDATA[University Combo value clicked]]>
+            </line>
+            <line>
+              <![CDATA[Field Of Study Combo gets clicked]]>
+            </line>
+            <line>
+              <![CDATA[Field Of Study Combo value clicked]]>
+            </line>
+            <line>
+              <![CDATA[Start Date entered]]>
+            </line>
+            <line>
+              <![CDATA[End Date entered]]>
+            </line>
+            <line>
+              <![CDATA[Grade Scale Combo gets clicked]]>
+            </line>
+            <line>
+              <![CDATA[Grade Scale Combo value clicked]]>
+            </line>
+            <line>
+              <![CDATA[CGPA entered]]>
+            </line>
+            <line>
+              <![CDATA[Save button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Failed to wait for en element 
+Expected condition failed: waiting for presence of element located by: By.xpath: Please fill the required field (tried for 10 second(s) with 2000 milliseconds interval)]]>
+            </line>
+            <line>
+              <![CDATA[Document is in ready state]]>
+            </line>
+            <line>
+              <![CDATA[This page is not defined with JQuery]]>
+            </line>
+            <line>
+              <![CDATA[Back to onboarding]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateNegativeUnderGradInfo -->
+      </class> <!-- Tests.UnderGraduate -->
+      <class name="Tests.Sslc">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Tests.Sslc@3c77d488]" started-at="2022-01-07T08:32:52 IST" name="beforeSuite" finished-at="2022-01-07T08:32:53 IST" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Tests.Sslc@3c77d488]" started-at="2022-01-07T08:34:10 IST" name="beforeTest" finished-at="2022-01-07T08:34:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tests.Sslc@3c77d488]" started-at="2022-01-07T08:34:10 IST" name="beforeMethod" finished-at="2022-01-07T08:34:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="clickAddDetailsAndTenthGradeButton()[pri:1, instance:Tests.Sslc@3c77d488]" started-at="2022-01-07T08:34:10 IST" name="clickAddDetailsAndTenthGradeButton" finished-at="2022-01-07T08:34:11 IST" duration-ms="558" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entered into academic information]]>
+            </line>
+            <line>
+              <![CDATA[Entered into 10th grade]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickAddDetailsAndTenthGradeButton -->
+        <test-method signature="validateNegativeTenthGradeInfo()[pri:2, instance:Tests.Sslc@3c77d488]" started-at="2022-01-07T08:34:11 IST" name="validateNegativeTenthGradeInfo" finished-at="2022-01-07T08:34:36 IST" duration-ms="25416" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Onboarding']"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'NAREN', ip: '192.168.225.90', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d85a5032c3b1b7aff74d2816b393cd1, findElement {using=xpath, value=//p[text()='Onboarding']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.35 (8df3babf8da8f..., userDataDir: C:\Users\NARENB~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64636}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64636/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d85a5032c3b1b7aff74d2816b393cd1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Onboarding']"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'NAREN', ip: '192.168.225.90', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d85a5032c3b1b7aff74d2816b393cd1, findElement {using=xpath, value=//p[text()='Onboarding']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.35 (8df3babf8da8f..., userDataDir: C:\Users\NARENB~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64636}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64636/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d85a5032c3b1b7aff74d2816b393cd1
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy25.click(Unknown Source)
+at Common.CommonFunctions.clickOnBoarding(CommonFunctions.java:74)
+at Tests.Sslc.validateNegativeTenthGradeInfo(Sslc.java:98)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[School Name Entered]]>
+            </line>
+            <line>
+              <![CDATA[Examination Board Combo gets clicked]]>
+            </line>
+            <line>
+              <![CDATA[Examination Board Combo value clicked]]>
+            </line>
+            <line>
+              <![CDATA[Start Date entered]]>
+            </line>
+            <line>
+              <![CDATA[End Date entered]]>
+            </line>
+            <line>
+              <![CDATA[Upload file is clicked]]>
+            </line>
+            <line>
+              <![CDATA[File is uploaded]]>
+            </line>
+            <line>
+              <![CDATA[Save button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Failed to wait for en element 
+Expected condition failed: waiting for presence of element located by: By.xpath: Please fill the required field (tried for 10 second(s) with 2000 milliseconds interval)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateNegativeTenthGradeInfo -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tests.Sslc@3c77d488]" started-at="2022-01-07T08:34:11 IST" name="beforeMethod" finished-at="2022-01-07T08:34:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Tests.Sslc@3c77d488]" started-at="2022-01-07T08:35:43 IST" name="afterTest" finished-at="2022-01-07T08:35:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Tests.Sslc@3c77d488]" started-at="2022-01-07T08:35:43 IST" name="afterSuite" finished-at="2022-01-07T08:35:44 IST" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Tests.Sslc -->
+      <class name="Tests.PostGraduate">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tests.PostGraduate@2892d68]" started-at="2022-01-07T08:35:29 IST" name="beforeMethod" finished-at="2022-01-07T08:35:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="clickAddDetailsAndPostGradGradeButton()[pri:1, instance:Tests.PostGraduate@2892d68]" started-at="2022-01-07T08:35:29 IST" name="clickAddDetailsAndPostGradGradeButton" finished-at="2022-01-07T08:35:30 IST" duration-ms="461" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Document is in ready state]]>
+            </line>
+            <line>
+              <![CDATA[This page is not defined with JQuery]]>
+            </line>
+            <line>
+              <![CDATA[Entered into academic information]]>
+            </line>
+            <line>
+              <![CDATA[Entered into postgraduate]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickAddDetailsAndPostGradGradeButton -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Tests.PostGraduate@2892d68]" started-at="2022-01-07T08:35:30 IST" name="beforeMethod" finished-at="2022-01-07T08:35:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validateNegativePostGradInfo()[pri:2, instance:Tests.PostGraduate@2892d68]" started-at="2022-01-07T08:35:30 IST" name="validateNegativePostGradInfo" finished-at="2022-01-07T08:35:43 IST" duration-ms="12913" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[College Combo gets clicked]]>
+            </line>
+            <line>
+              <![CDATA[College Combo value clicked]]>
+            </line>
+            <line>
+              <![CDATA[University Combo gets clicked]]>
+            </line>
+            <line>
+              <![CDATA[University Combo value clicked]]>
+            </line>
+            <line>
+              <![CDATA[Field Of Study Combo gets clicked]]>
+            </line>
+            <line>
+              <![CDATA[Field Of Study Combo value clicked]]>
+            </line>
+            <line>
+              <![CDATA[Start Date entered]]>
+            </line>
+            <line>
+              <![CDATA[End Date entered]]>
+            </line>
+            <line>
+              <![CDATA[Grade Scale Combo gets clicked]]>
+            </line>
+            <line>
+              <![CDATA[Grade Scale Combo value clicked]]>
+            </line>
+            <line>
+              <![CDATA[CGPA entered]]>
+            </line>
+            <line>
+              <![CDATA[Save button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Failed to wait for en element 
+Expected condition failed: waiting for presence of element located by: By.xpath: Please fill the required field (tried for 10 second(s) with 2000 milliseconds interval)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateNegativePostGradInfo -->
+      </class> <!-- Tests.PostGraduate -->
+    </test> <!-- Academic Information -->
+  </suite> <!-- Unified Portal Test Cases -->
+</testng-results>

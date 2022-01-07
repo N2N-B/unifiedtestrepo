@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Unified_Portal_Test_Cases" class="navigator-link">
+              <span class="suite-name border-failed">Unified Portal Test Cases</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Unified_Portal_Test_Cases" class="navigator-link ">
+                    <span>F:\Java Projects\unified.automation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Unified_Portal_Test_Cases" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Unified_Portal_Test_Cases" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Unified_Portal_Test_Cases" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Unified_Portal_Test_Cases" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Unified_Portal_Test_Cases" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Unified_Portal_Test_Cases" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods, 1 failed,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Unified_Portal_Test_Cases" class="hide-methods failed suite-Unified_Portal_Test_Cases"> (hide)</a> <!-- hide-methods failed suite-Unified_Portal_Test_Cases -->
+                      <a href="#" panel-name="suite-Unified_Portal_Test_Cases" class="show-methods failed suite-Unified_Portal_Test_Cases"> (show)</a> <!-- show-methods failed suite-Unified_Portal_Test_Cases -->
+                    </span>
+                    <div class="method-list-content failed suite-Unified_Portal_Test_Cases">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Unified_Portal_Test_Cases" title="Tests.Sslc" class="method navigator-link" hash-for-method="validateNegativeTenthGradeInfo">validateNegativeTenthGradeInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Unified_Portal_Test_Cases -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Unified_Portal_Test_Cases" class="hide-methods passed suite-Unified_Portal_Test_Cases"> (hide)</a> <!-- hide-methods passed suite-Unified_Portal_Test_Cases -->
+                      <a href="#" panel-name="suite-Unified_Portal_Test_Cases" class="show-methods passed suite-Unified_Portal_Test_Cases"> (show)</a> <!-- show-methods passed suite-Unified_Portal_Test_Cases -->
+                    </span>
+                    <div class="method-list-content passed suite-Unified_Portal_Test_Cases">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Unified_Portal_Test_Cases" title="Tests.Diploma" class="method navigator-link" hash-for-method="clickAddDetailsAndDiplomaButton">clickAddDetailsAndDiplomaButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Unified_Portal_Test_Cases" title="Tests.PlusTwo" class="method navigator-link" hash-for-method="clickAddDetailsAndPlus2GradeButton">clickAddDetailsAndPlus2GradeButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Unified_Portal_Test_Cases" title="Tests.PostGraduate" class="method navigator-link" hash-for-method="clickAddDetailsAndPostGradGradeButton">clickAddDetailsAndPostGradGradeButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Unified_Portal_Test_Cases" title="Tests.Sslc" class="method navigator-link" hash-for-method="clickAddDetailsAndTenthGradeButton">clickAddDetailsAndTenthGradeButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Unified_Portal_Test_Cases" title="Tests.UnderGraduate" class="method navigator-link" hash-for-method="clickAddDetailsAndUnderGradGradeButton">clickAddDetailsAndUnderGradGradeButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Unified_Portal_Test_Cases" title="Tests.PersonalInformation" class="method navigator-link" hash-for-method="clickonBoardAcademicInfoPage">clickonBoardAcademicInfoPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Unified_Portal_Test_Cases" title="Tests.Login" class="method navigator-link" hash-for-method="doLogIn(stagetester1@gmail.com, 678968767, Invalid Password)">doLogIn(stagetester1@gmail.com, 678968767, Invalid Password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Unified_Portal_Test_Cases" title="Tests.Login" class="method navigator-link" hash-for-method="doLogIn(testingtester123@gmail.com, 5641234567, Valid username and password)">doLogIn(testingtester123@gmail.com, 5641234567, Valid username and password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Unified_Portal_Test_Cases" title="Tests.PersonalInformation" class="method navigator-link" hash-for-method="doLogIn(stagetester1@gmail.com, 678968767, Invalid Password)">doLogIn(stagetester1@gmail.com, 678968767, Invalid Password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Unified_Portal_Test_Cases" title="Tests.PersonalInformation" class="method navigator-link" hash-for-method="doLogIn(testingtester123@gmail.com, 5641234567, Valid username and password)">doLogIn(testingtester123@gmail.com, 5641234567, Valid username and password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Unified_Portal_Test_Cases" title="Tests.PersonalInformation" class="method navigator-link" hash-for-method="getAdmissionsServicesMastersProductsPage">getAdmissionsServicesMastersProductsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Unified_Portal_Test_Cases" title="Tests.PersonalInformation" class="method navigator-link" hash-for-method="getBasicPage">getBasicPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Unified_Portal_Test_Cases" title="Tests.Diploma" class="method navigator-link" hash-for-method="validateNegativeDiplomaInfo">validateNegativeDiplomaInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Unified_Portal_Test_Cases" title="Tests.PersonalInformation" class="method navigator-link" hash-for-method="validateNegativeOnboardingPersonalInfo">validateNegativeOnboardingPersonalInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Unified_Portal_Test_Cases" title="Tests.PlusTwo" class="method navigator-link" hash-for-method="validateNegativePlus2GradeInfo">validateNegativePlus2GradeInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Unified_Portal_Test_Cases" title="Tests.PostGraduate" class="method navigator-link" hash-for-method="validateNegativePostGradInfo">validateNegativePostGradInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Unified_Portal_Test_Cases" title="Tests.UnderGraduate" class="method navigator-link" hash-for-method="validateNegativeUnderGradInfo">validateNegativeUnderGradInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Unified_Portal_Test_Cases -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Unified_Portal_Test_Cases" class="panel Unified_Portal_Test_Cases">
+          <div class="suite-Unified_Portal_Test_Cases-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Tests.Sslc</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateNegativeTenthGradeInfo">
+                  </a> <!-- validateNegativeTenthGradeInfo -->
+                  <span class="method-name">validateNegativeTenthGradeInfo</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[text()=&apos;Onboarding&apos;]&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.0&apos;, revision: &apos;87802e897b&apos;
+System info: host: &apos;NAREN&apos;, ip: &apos;192.168.225.90&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d85a5032c3b1b7aff74d2816b393cd1, findElement {using=xpath, value=//p[text()=&apos;Onboarding&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.35 (8df3babf8da8f..., userDataDir: C:\Users\NARENB~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64636}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64636/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d85a5032c3b1b7aff74d2816b393cd1
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at Common.CommonFunctions.clickOnBoarding(CommonFunctions.java:74)
+	at Tests.Sslc.validateNegativeTenthGradeInfo(Sslc.java:98)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Unified_Portal_Test_Cases-class-failed -->
+          <div class="suite-Unified_Portal_Test_Cases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.UnderGraduate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickAddDetailsAndUnderGradGradeButton">
+                  </a> <!-- clickAddDetailsAndUnderGradGradeButton -->
+                  <span class="method-name">clickAddDetailsAndUnderGradGradeButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateNegativeUnderGradInfo">
+                  </a> <!-- validateNegativeUnderGradInfo -->
+                  <span class="method-name">validateNegativeUnderGradInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Unified_Portal_Test_Cases-class-passed -->
+          <div class="suite-Unified_Portal_Test_Cases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.PlusTwo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickAddDetailsAndPlus2GradeButton">
+                  </a> <!-- clickAddDetailsAndPlus2GradeButton -->
+                  <span class="method-name">clickAddDetailsAndPlus2GradeButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateNegativePlus2GradeInfo">
+                  </a> <!-- validateNegativePlus2GradeInfo -->
+                  <span class="method-name">validateNegativePlus2GradeInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Unified_Portal_Test_Cases-class-passed -->
+          <div class="suite-Unified_Portal_Test_Cases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.PostGraduate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickAddDetailsAndPostGradGradeButton">
+                  </a> <!-- clickAddDetailsAndPostGradGradeButton -->
+                  <span class="method-name">clickAddDetailsAndPostGradGradeButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateNegativePostGradInfo">
+                  </a> <!-- validateNegativePostGradInfo -->
+                  <span class="method-name">validateNegativePostGradInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Unified_Portal_Test_Cases-class-passed -->
+          <div class="suite-Unified_Portal_Test_Cases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.Sslc</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickAddDetailsAndTenthGradeButton">
+                  </a> <!-- clickAddDetailsAndTenthGradeButton -->
+                  <span class="method-name">clickAddDetailsAndTenthGradeButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Unified_Portal_Test_Cases-class-passed -->
+          <div class="suite-Unified_Portal_Test_Cases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.Diploma</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickAddDetailsAndDiplomaButton">
+                  </a> <!-- clickAddDetailsAndDiplomaButton -->
+                  <span class="method-name">clickAddDetailsAndDiplomaButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateNegativeDiplomaInfo">
+                  </a> <!-- validateNegativeDiplomaInfo -->
+                  <span class="method-name">validateNegativeDiplomaInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Unified_Portal_Test_Cases-class-passed -->
+          <div class="suite-Unified_Portal_Test_Cases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.PersonalInformation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonBoardAcademicInfoPage">
+                  </a> <!-- clickonBoardAcademicInfoPage -->
+                  <span class="method-name">clickonBoardAcademicInfoPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogIn(stagetester1@gmail.com, 678968767, Invalid Password)">
+                  </a> <!-- doLogIn(stagetester1@gmail.com, 678968767, Invalid Password) -->
+                  <span class="method-name">doLogIn</span>
+                  <span class="parameters">(stagetester1@gmail.com, 678968767, Invalid Password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogIn(testingtester123@gmail.com, 5641234567, Valid username and password)">
+                  </a> <!-- doLogIn(testingtester123@gmail.com, 5641234567, Valid username and password) -->
+                  <span class="method-name">doLogIn</span>
+                  <span class="parameters">(testingtester123@gmail.com, 5641234567, Valid username and password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAdmissionsServicesMastersProductsPage">
+                  </a> <!-- getAdmissionsServicesMastersProductsPage -->
+                  <span class="method-name">getAdmissionsServicesMastersProductsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getBasicPage">
+                  </a> <!-- getBasicPage -->
+                  <span class="method-name">getBasicPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateNegativeOnboardingPersonalInfo">
+                  </a> <!-- validateNegativeOnboardingPersonalInfo -->
+                  <span class="method-name">validateNegativeOnboardingPersonalInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Unified_Portal_Test_Cases-class-passed -->
+          <div class="suite-Unified_Portal_Test_Cases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogIn(stagetester1@gmail.com, 678968767, Invalid Password)">
+                  </a> <!-- doLogIn(stagetester1@gmail.com, 678968767, Invalid Password) -->
+                  <span class="method-name">doLogIn</span>
+                  <span class="parameters">(stagetester1@gmail.com, 678968767, Invalid Password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogIn(testingtester123@gmail.com, 5641234567, Valid username and password)">
+                  </a> <!-- doLogIn(testingtester123@gmail.com, 5641234567, Valid username and password) -->
+                  <span class="method-name">doLogIn</span>
+                  <span class="parameters">(testingtester123@gmail.com, 5641234567, Valid username and password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Unified_Portal_Test_Cases-class-passed -->
+        </div> <!-- panel Unified_Portal_Test_Cases -->
+        <div panel-name="test-xml-Unified_Portal_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\Java Projects\unified.automation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Unified Portal Test Cases&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.Login&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Personal Information&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.PersonalInformation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Personal Information --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Academic Information&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.Sslc&quot;/&gt;
+      &lt;class name=&quot;Tests.PlusTwo&quot;/&gt;
+      &lt;class name=&quot;Tests.Diploma&quot;/&gt;
+      &lt;class name=&quot;Tests.UnderGraduate&quot;/&gt;
+      &lt;class name=&quot;Tests.PostGraduate&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Academic Information --&gt;
+&lt;/suite&gt; &lt;!-- Unified Portal Test Cases --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Unified_Portal_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Unified Portal Test Cases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Personal Information (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Academic Information (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Unified_Portal_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Unified Portal Test Cases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">NegativeTests</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateNegativeDiplomaInfo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateNegativePlus2GradeInfo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateNegativePostGradInfo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateNegativeTenthGradeInfo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateNegativeUnderGradInfo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Unified_Portal_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Unified Portal Test Cases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Unified_Portal_Test_Cases');
+function tableData_Unified_Portal_Test_Cases() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateNegativeTenthGradeInfo')
+data.setCell(0, 2, 'Tests.Sslc')
+data.setCell(0, 3, 25416);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateNegativePlus2GradeInfo')
+data.setCell(1, 2, 'Tests.PlusTwo')
+data.setCell(1, 3, 24084);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'doLogIn')
+data.setCell(2, 2, 'Tests.Login')
+data.setCell(2, 3, 19472);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateNegativePostGradInfo')
+data.setCell(3, 2, 'Tests.PostGraduate')
+data.setCell(3, 3, 12913);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateNegativeUnderGradInfo')
+data.setCell(4, 2, 'Tests.UnderGraduate')
+data.setCell(4, 3, 12738);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateNegativeDiplomaInfo')
+data.setCell(5, 2, 'Tests.Diploma')
+data.setCell(5, 3, 12508);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'doLogIn')
+data.setCell(6, 2, 'Tests.Login')
+data.setCell(6, 3, 11196);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'doLogIn')
+data.setCell(7, 2, 'Tests.PersonalInformation')
+data.setCell(7, 3, 9121);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'getBasicPage')
+data.setCell(8, 2, 'Tests.PersonalInformation')
+data.setCell(8, 3, 3690);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'clickAddDetailsAndUnderGradGradeButton')
+data.setCell(9, 2, 'Tests.UnderGraduate')
+data.setCell(9, 3, 2927);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'getAdmissionsServicesMastersProductsPage')
+data.setCell(10, 2, 'Tests.PersonalInformation')
+data.setCell(10, 3, 2252);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'doLogIn')
+data.setCell(11, 2, 'Tests.PersonalInformation')
+data.setCell(11, 3, 2091);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validateNegativeOnboardingPersonalInfo')
+data.setCell(12, 2, 'Tests.PersonalInformation')
+data.setCell(12, 3, 1469);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'clickAddDetailsAndTenthGradeButton')
+data.setCell(13, 2, 'Tests.Sslc')
+data.setCell(13, 3, 558);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'clickAddDetailsAndDiplomaButton')
+data.setCell(14, 2, 'Tests.Diploma')
+data.setCell(14, 3, 508);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'clickAddDetailsAndPostGradGradeButton')
+data.setCell(15, 2, 'Tests.PostGraduate')
+data.setCell(15, 3, 461);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'clickAddDetailsAndPlus2GradeButton')
+data.setCell(16, 2, 'Tests.PlusTwo')
+data.setCell(16, 3, 461);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'clickonBoardAcademicInfoPage')
+data.setCell(17, 2, 'Tests.PersonalInformation')
+data.setCell(17, 3, 201);
+window.suiteTableData['Unified_Portal_Test_Cases']= { tableData: data, tableDiv: 'times-div-Unified_Portal_Test_Cases'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Unified_Portal_Test_Cases">
+              </div> <!-- times-div-Unified_Portal_Test_Cases -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Unified_Portal_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Unified Portal Test Cases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">doLogIn(stagetester1@gmail.com, 678968767, Invalid Password)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Invalid Password [Popup Detected]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">doLogIn(testingtester123@gmail.com, 5641234567, Valid username and password)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login Successful</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">clickonBoardAcademicInfoPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Personal Information gets clicked</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">getAdmissionsServicesMastersProductsPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Onboarding gets clicked</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateNegativeOnboardingPersonalInfo</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Please fill the required field [Popup Detected]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateNegativePostGradInfo</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">College Combo gets clicked</span>
+                <span class="reporter-method-output">College Combo value clicked</span>
+                <span class="reporter-method-output">University Combo gets clicked</span>
+                <span class="reporter-method-output">University Combo value clicked</span>
+                <span class="reporter-method-output">Field Of Study Combo gets clicked</span>
+                <span class="reporter-method-output">Field Of Study Combo value clicked</span>
+                <span class="reporter-method-output">Start Date entered</span>
+                <span class="reporter-method-output">End Date entered</span>
+                <span class="reporter-method-output">Grade Scale Combo gets clicked</span>
+                <span class="reporter-method-output">Grade Scale Combo value clicked</span>
+                <span class="reporter-method-output">CGPA entered</span>
+                <span class="reporter-method-output">Save button is clicked</span>
+                <span class="reporter-method-output">Failed to wait for en element 
+Expected condition failed: waiting for presence of element located by: By.xpath: Please fill the required field (tried for 10 second(s) with 2000 milliseconds interval)</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateNegativePlus2GradeInfo</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">School Name Entered</span>
+                <span class="reporter-method-output">Examination Board Combo gets clicked</span>
+                <span class="reporter-method-output">Examination Board Combo value clicked</span>
+                <span class="reporter-method-output">Start Date entered</span>
+                <span class="reporter-method-output">End Date entered</span>
+                <span class="reporter-method-output">Upload file is clicked</span>
+                <span class="reporter-method-output">File is uploaded</span>
+                <span class="reporter-method-output">Save button is clicked</span>
+                <span class="reporter-method-output">Failed to wait for en element 
+Expected condition failed: waiting for presence of element located by: By.xpath: Please fill the required field (tried for 10 second(s) with 2000 milliseconds interval)</span>
+                <span class="reporter-method-output">Document is in ready state</span>
+                <span class="reporter-method-output">This page is not defined with JQuery</span>
+                <span class="reporter-method-output">Back to onboarding</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateNegativeDiplomaInfo</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">College Combo gets clicked</span>
+                <span class="reporter-method-output">College Combo value clicked</span>
+                <span class="reporter-method-output">University Combo gets clicked</span>
+                <span class="reporter-method-output">University Combo value clicked</span>
+                <span class="reporter-method-output">Field Of Study Combo gets clicked</span>
+                <span class="reporter-method-output">Field Of Study Combo value clicked</span>
+                <span class="reporter-method-output">Start Date entered</span>
+                <span class="reporter-method-output">End Date entered</span>
+                <span class="reporter-method-output">Grade Scale Combo gets clicked</span>
+                <span class="reporter-method-output">Grade Scale Combo value clicked</span>
+                <span class="reporter-method-output">CGPA entered</span>
+                <span class="reporter-method-output">Save button is clicked</span>
+                <span class="reporter-method-output">Failed to wait for en element 
+Expected condition failed: waiting for presence of element located by: By.xpath: Please fill the required field (tried for 10 second(s) with 2000 milliseconds interval)</span>
+                <span class="reporter-method-output">Document is in ready state</span>
+                <span class="reporter-method-output">This page is not defined with JQuery</span>
+                <span class="reporter-method-output">Back to onboarding</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">clickAddDetailsAndPostGradGradeButton</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Document is in ready state</span>
+                <span class="reporter-method-output">This page is not defined with JQuery</span>
+                <span class="reporter-method-output">Entered into academic information</span>
+                <span class="reporter-method-output">Entered into postgraduate</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">clickAddDetailsAndTenthGradeButton</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Entered into academic information</span>
+                <span class="reporter-method-output">Entered into 10th grade</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">clickAddDetailsAndDiplomaButton</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Entered into academic information</span>
+                <span class="reporter-method-output">Entered into Diploma</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">clickAddDetailsAndPlus2GradeButton</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Entered into academic information</span>
+                <span class="reporter-method-output">Entered into 12th grade</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateNegativeUnderGradInfo</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">College Combo gets clicked</span>
+                <span class="reporter-method-output">College Combo value clicked</span>
+                <span class="reporter-method-output">University Combo gets clicked</span>
+                <span class="reporter-method-output">University Combo value clicked</span>
+                <span class="reporter-method-output">Field Of Study Combo gets clicked</span>
+                <span class="reporter-method-output">Field Of Study Combo value clicked</span>
+                <span class="reporter-method-output">Start Date entered</span>
+                <span class="reporter-method-output">End Date entered</span>
+                <span class="reporter-method-output">Grade Scale Combo gets clicked</span>
+                <span class="reporter-method-output">Grade Scale Combo value clicked</span>
+                <span class="reporter-method-output">CGPA entered</span>
+                <span class="reporter-method-output">Save button is clicked</span>
+                <span class="reporter-method-output">Failed to wait for en element 
+Expected condition failed: waiting for presence of element located by: By.xpath: Please fill the required field (tried for 10 second(s) with 2000 milliseconds interval)</span>
+                <span class="reporter-method-output">Document is in ready state</span>
+                <span class="reporter-method-output">This page is not defined with JQuery</span>
+                <span class="reporter-method-output">Back to onboarding</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">clickAddDetailsAndUnderGradGradeButton</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Entered into academic information</span>
+                <span class="reporter-method-output">Entered into undergraduate</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateNegativeTenthGradeInfo</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">School Name Entered</span>
+                <span class="reporter-method-output">Examination Board Combo gets clicked</span>
+                <span class="reporter-method-output">Examination Board Combo value clicked</span>
+                <span class="reporter-method-output">Start Date entered</span>
+                <span class="reporter-method-output">End Date entered</span>
+                <span class="reporter-method-output">Upload file is clicked</span>
+                <span class="reporter-method-output">File is uploaded</span>
+                <span class="reporter-method-output">Save button is clicked</span>
+                <span class="reporter-method-output">Failed to wait for en element 
+Expected condition failed: waiting for presence of element located by: By.xpath: Please fill the required field (tried for 10 second(s) with 2000 milliseconds interval)</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Unified_Portal_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">22 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Tests.UnderGraduate</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validateUnderGradInfo</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Tests.PlusTwo</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">validatePlus2GradeInfo</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Tests.PostGraduate</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">validatePostGradInfo</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Tests.Sslc</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validateTenthGradeInfo</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Tests.Diploma</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">validateDiplomaInfo</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Tests.PersonalInformation</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validateOnboardingPersonalInfo</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Unified_Portal_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.Sslc</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">505 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">initDriver</span>
+                <span class="method-start">507 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">24279 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doLogIn(stagetester1@gmail.com, 678968767, Invalid Password)</span>
+                <span class="method-start">24280 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">35488 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doLogIn(testingtester123@gmail.com, 5641234567, Valid username and password)</span>
+                <span class="method-start">35494 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">54982 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">55802 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.PersonalInformation</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">56454 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">initDriver</span>
+                <span class="method-start">56455 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">59117 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doLogIn(stagetester1@gmail.com, 678968767, Invalid Password)</span>
+                <span class="method-start">59117 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">68245 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doLogIn(testingtester123@gmail.com, 5641234567, Valid username and password)</span>
+                <span class="method-start">68246 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">70341 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getBasicPage</span>
+                <span class="method-start">70341 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">74035 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getAdmissionsServicesMastersProductsPage</span>
+                <span class="method-start">74036 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">76294 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickonBoardAcademicInfoPage</span>
+                <span class="method-start">76294 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">76498 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateNegativeOnboardingPersonalInfo</span>
+                <span class="method-start">76498 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">77968 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">77969 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.Sslc</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">77993 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">77997 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickAddDetailsAndTenthGradeButton</span>
+                <span class="method-start">77997 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateNegativeTenthGradeInfo</span>
+                <span class="method-start">78557 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">78557 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.PlusTwo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clickAddDetailsAndPlus2GradeButton</span>
+                <span class="method-start">103978 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">103978 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">104444 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateNegativePlus2GradeInfo</span>
+                <span class="method-start">104444 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.Diploma</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">128534 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickAddDetailsAndDiplomaButton</span>
+                <span class="method-start">128535 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">129047 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateNegativeDiplomaInfo</span>
+                <span class="method-start">129048 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.UnderGraduate</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">141558 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickAddDetailsAndUnderGradGradeButton</span>
+                <span class="method-start">141559 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">144490 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateNegativeUnderGradInfo</span>
+                <span class="method-start">144491 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.PostGraduate</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">157244 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickAddDetailsAndPostGradGradeButton</span>
+                <span class="method-start">157245 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">157707 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateNegativePostGradInfo</span>
+                <span class="method-start">157708 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.Sslc</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">170626 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">170677 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
